@@ -15,9 +15,9 @@ body {
     margin: 25px;
 }
 .textcercle {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xxx-large;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;    font-size: xxx-large;
     position: absolute;
+    font-size: 110px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -66,6 +66,13 @@ line-height: 1.6;
     top: -720px;
     left: 1000px;
     line-height: 1.8;
+    font-size: large;
+}
+.Langues
+{
+    letter-spacing: 5px;
+    text-align: center;
+    
 }
 
 .Langues {
@@ -74,13 +81,30 @@ line-height: 1.6;
     top: -620px;
     left: 1000px;
     font-size:x-large;
-    
-
+    font-family:Arial, Helvetica, sans-serif
+}
+hr {
+    color: #030101;
+    overflow: visible;
+    height: auto;
+    text-align: justify;
+    line-height: 10;
+    padding: 0%;
 }
 .COMPETENCES {
+    letter-spacing: 1.2px;
     position: relative;
     text-align: left;
     top: -420px;
     left: 1000px;
     font-size: xx-large;
+    font-style: normal;
 }
+.v-line{
+    border-left: solid #000;
+    height: 150%;
+    left: 70%;
+    position: absolute;
+    top: 320px;
+    left: 790px;
+   }
