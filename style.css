@@ -1,0 +1,86 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 45px;
+    padding: 0;
+}
+.cercle{
+    top: -150px;
+    left: 41%;
+    position: relative;
+    background:#ffffff;
+    border-radius:50%;
+    width:130px;
+    height:120px;
+    border:5px solid #cba785; 
+    margin: 25px;
+}
+.textcercle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xxx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #030101;
+  }
+
+.haut {
+    background-color: rgba(221, 201, 164, 0.864);
+    color: #45495ddc;
+    text-align: center;
+    letter-spacing: 9px;
+    position: relative;
+    top: 85px;
+    padding: 10px;
+}
+
+.gauche {
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    text-decoration:underline ;
+    position: relative;
+    letter-spacing: 2px;
+    top: -20px;
+    color: #060606;
+}
+.gauche2 p {
+   position: relative;
+   top: -20px;
+   text-align: left;
+   padding: 15px;
+   width: 500px;
+line-height: 1.6;
+}
+
+.gauche h2 {
+    position: relative;
+    top: 10px;
+    text-align: left;
+    font-size: xx-large;
+    
+    padding: 15px;
+}
+.informations {
+    position: relative;
+    text-align: left;
+    top: -720px;
+    left: 1000px;
+    line-height: 1.8;
+}
+
+.Langues {
+    position: relative;
+    text-align: left;
+    top: -620px;
+    left: 1000px;
+    font-size:x-large;
+    
+
+}
+.COMPETENCES {
+    position: relative;
+    text-align: left;
+    top: -420px;
+    left: 1000px;
+    font-size: xx-large;
+}
